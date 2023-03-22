@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-
-import CardList from "./CardList"
+import SearchBox from "./SearchBox";
+import App from "./App"
 import "tachyons";
 import reportWebVitals from "./reportWebVitals";
 import { robots } from "./robots";
@@ -10,7 +10,7 @@ import { robots } from "./robots";
 
 
 ReactDOM.render(
-  <div><CardList robots={robots}/>
+  <div><App/>
     </div>,
   document.getElementById("root")
 );
